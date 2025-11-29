@@ -1,0 +1,123 @@
+html, body{
+    padding: 0;
+    margin: 0;
+
+    font-family: "Roboto", sans-serif;
+}
+
+p{
+    font-size: 18px;
+}
+
+.icon{
+    width: 60px;
+}
+
+.head{
+    padding: 6%;
+    color: white;
+    background: #4500B4;
+    background: linear-gradient(54deg, rgba(69, 0, 180, 1) 17%, rgba(199, 87, 190, 1) 69%, rgba(255, 79, 182, 1) 100%);
+    background-position: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mainHead{
+    font-size: 80px;
+    font-weight: 300;
+}
+
+.navbar{
+    font-size: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+    padding: 15px;
+    position: sticky;
+    top: 0;
+
+    z-index: 2;
+
+    background-color: white;
+
+    box-shadow: 5px 5px 5px rgba(90, 90, 90, 0.459);
+}
+
+.links{
+    display: flex;
+    gap: 2rem;
+}
+
+.btn{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 30px;
+    color: white;
+    background-color: rgb(69, 0, 180);
+    border: 2px solid rgb(69, 0, 180);
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    color: rgb(69, 0, 180);
+    background-color: white;
+}
+
+
+.cardBody{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.cardDefault{
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 1.5%;
+    margin: 10px;
+    border: 1px solid rgba(90, 90, 90, 0.1);
+    max-width: 500px;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px rgba(90, 90, 90, 0.2);
+    transition: 0.2s;
+}
+
+.cardDefault:hover{
+    transform: scale(1.03);
+}
+
+.cardTitle{
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.cardBtn{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 40px;
+    color: white;
+    background-color: rgb(69, 0, 180);
+    border: 2px solid rgb(69, 0, 180);
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.cardBtn:hover{
+    color: rgb(69, 0, 180);
+    background-color: white;
+}
+
+.cardImg{
+    width: 500px;
+    border-radius: 30px 30px 0px 0px;
+    border-bottom: 1px solid rgba(90, 90, 90, 0.5);
+}
