@@ -16,25 +16,29 @@ function App() {
             </div>
 
             <About/>
-            <div className="cardBody">
-                <Cards
-                    imgSrc = "/weatherly.png"
-                    cardTitle = "Weatherly.js"
-                    cardText = {"A fully functioning front-end weather application\nusing plain HTML, CSS and Javascript.\n"}
-                    projLink = "https://mechaspirit1.github.io/Weather-App/"
-                />
-                <Cards
-                    imgSrc = "/book.png"
-                    cardTitle = "Book Repo"
-                    cardText = {"A front-end application to search for books and authors\nmaking use of the Open Library API\n"}
-                    projLink = "https://mechaspirit1.github.io/Book-Repo/"
-                />
-                <Cards
-                    imgSrc = "/palette.png"
-                    cardTitle = "Color Palette Generator"
-                    cardText = {"A basic application demonstrating DOM manipulation\nand handling random values in code\n"}
-                    projLink = "https://mechaspirit1.github.io/Color-palette-generator/"
-                />
+
+            <div >
+                <h1 className="title"> Projects</h1>
+                <div className="cardBody">
+                    <Cards
+                        imgSrc = "/weatherly.png"
+                        cardTitle = "Weatherly.js"
+                        cardText = {"A fully functioning front-end weather application\nusing plain HTML, CSS and Javascript.\n"}
+                        projLink = "https://mechaspirit1.github.io/Weather-App/"
+                    />
+                    <Cards
+                        imgSrc = "/book.png"
+                        cardTitle = "Book Repo"
+                        cardText = {"A front-end application to search for books and authors\nmaking use of the Open Library API\n"}
+                        projLink = "https://mechaspirit1.github.io/Book-Repo/"
+                    />
+                    <Cards
+                        imgSrc = "/palette.png"
+                        cardTitle = "Color Palette Generator"
+                        cardText = {"A basic application demonstrating DOM manipulation\nand handling random values in code\n"}
+                        projLink = "https://mechaspirit1.github.io/Color-palette-generator/"
+                    />
+                </div>
             </div>
 
             <Footer/>

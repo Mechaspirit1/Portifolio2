@@ -1,7 +1,7 @@
 function About(){
     return(
         <div className="desc">
-            <h2>About me</h2>
+            <h2 className="title">About me</h2>
             <p className="about">
                 I am an undergraduate student of cybersecurity and self taught web-developer <br/>
                 currently working on personal projects and looking for work related to Computer Science. <br/><br />

@@ -3,7 +3,7 @@ import Button from "./Button.jsx";
 function Navbar(){
     return(
         <>  
-            <img src="/vite.svg" alt="" className="icon"/>
+            <img src="/logo.png" alt="" className="icon"/>
             <h2>Pablo Loschi</h2>
 
             <div className="links">
