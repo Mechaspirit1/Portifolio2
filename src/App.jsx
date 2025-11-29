@@ -1,6 +1,8 @@
 import Header from "./Header";
 import Navbar from "./NavBar";
 import Cards from "./Cards";
+import Footer from "./Footer";
+import About from "./About";
 
 function App() {
     return(
@@ -12,7 +14,8 @@ function App() {
             <div className="head">
                 <Header/>
             </div>
-            
+
+            <About/>
             <div className="cardBody">
                 <Cards
                     imgSrc = "/weatherly.png"
@@ -32,8 +35,9 @@ function App() {
                     cardText = {"A basic application demonstrating DOM manipulation\nand handling random values in code\n"}
                     projLink = "https://mechaspirit1.github.io/Color-palette-generator/"
                 />
-                
             </div>
+
+            <Footer/>
         </>
     );
 }
