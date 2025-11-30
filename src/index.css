@@ -5,8 +5,22 @@ html, body{
     font-family: "Roboto", sans-serif;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
 p{
     font-size: 18px;
+}
+
+h2{
+    font-weight: 300;
+}
+
+a{
+    text-decoration: none;
 }
 
 .title{
@@ -56,7 +70,7 @@ p{
 
 .links{
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .btn{
@@ -141,4 +155,10 @@ p{
     width: 500px;
     border-radius: 30px 30px 0px 0px;
     border-bottom: 1px solid rgba(90, 90, 90, 0.5);
+}
+
+@media (max-width: 450px){
+    body{
+        text-align: center;
+    }
 }
