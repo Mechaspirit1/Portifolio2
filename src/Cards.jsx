@@ -5,9 +5,16 @@ function Cards(props){
             <h2 className="cardTitle">{props.cardTitle}</h2>
             <p>{props.cardText}</p>
 
-            <form action={props.projLink} href="_blank">
-                <button className="cardBtn">Visit !</button>
-            </form>
+            <div className="cardNavs">
+                <form action={props.projLink} target="_blank">
+                    <button className="cardBtn">Visit !</button>
+                </form>
+
+                <form action={props.srcCode} target="_blank">
+                    <button className="cardBtn">Source code</button>
+                </form>
+            </div>
+            
         </div>
     );
 }

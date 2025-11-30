@@ -104,6 +104,10 @@ a{
     font-weight: 200;
 }
 
+.main{
+    padding-top:5%;
+}
+
 
 .cardBody{
     margin-top: 3%;
@@ -138,17 +142,25 @@ a{
 .cardBtn{
     font-size: 20px;
     font-weight: bold;
-    padding: 20px 40px;
+    padding: 15px 30px;
     color: white;
     background-color: rgb(69, 0, 180);
     border: 2px solid rgb(69, 0, 180);
-    border-radius: 30px;
+    border-radius: 10px;
     transition: 0.3s;
 }
 
 .cardBtn:hover{
     color: rgb(69, 0, 180);
     background-color: white;
+}
+
+.cardNavs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 
 .cardImg{

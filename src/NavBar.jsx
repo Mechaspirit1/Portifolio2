@@ -13,7 +13,7 @@ function Navbar(){
                 <form action="https://www.linkedin.com/in/pablo-loschi-b55055381/" target="_blank">
                     <button className="btn">LinkedIn</button>
                 </form>
-                <form action="https://github.com/Mechaspirit1" target="_blank">
+                <form action="/cv.pdf" target="_blank">
                     <button className="btn">CV</button>
                 </form>
             </div>
